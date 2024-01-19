@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cálculo de Preço Teto</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Cálculo de Preço Teto</h1>
+
+  <div class="form-group">
+    <label for="assetName">Ativo:</label>
+    <input type="text" id="assetName" required>
+  </div>
+
+  <div class="form-group">
+    <label for="referencePrice">Valor de referência:</label>
+    <input type="number" id="referencePrice" step="0.01" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="ceilingPercentage">Percentual do preço teto:</label>
+    <input type="number" id="ceilingPercentage" step="0.01" required>
+  </div>
+  
+  <div class="form-group">
+    <button type="button" onclick="calculatePriceTeto()">Calcular</button>
+  </div>
+
+  <div id="result" class="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
