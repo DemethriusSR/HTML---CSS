@@ -17,6 +17,19 @@ O usuário fornecerá três entradas obrigatórias, e o sistema calculará o pre
 ### **Saída (OUTPUT)**
 - Cálculo do **preço teto** com base nos valores fornecidos pelo usuário.
 
+## Cálculo do Preço Teto
+O preço teto é calculado utilizando a seguinte fórmula:
+
+\[ \text{Preço Teto} = \text{Valor de Referência} \times \left(1 + \frac{\text{Percentual do Preço Teto}}{100}\right) \]
+
+Exemplo:
+- **Ativo**: XYZ3
+- **Valor de Referência**: R$ 10,00
+- **Percentual do Preço Teto**: 20%
+
+O preço teto será calculado da seguinte forma:
+\[ 10,00 \times (1 + \frac{20}{100}) = 10,00 \times 1,20 = R$ 12,00 \]
+
 ## Estrutura do Projeto
 O projeto é composto pelos seguintes arquivos:
 ```
