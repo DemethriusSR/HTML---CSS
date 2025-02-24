@@ -20,7 +20,7 @@ O usuário fornecerá três entradas obrigatórias, e o sistema calculará o pre
 ## Cálculo do Preço Teto
 O preço teto é calculado utilizando a seguinte fórmula:
 
-\[ \text{Preço Teto} = \text{Valor de Referência} \times \left(1 + \frac{\text{Percentual do Preço Teto}}{100}\right) \]
+![alt text](./Preço_Teto/asset/calc.png)
 
 Exemplo:
 - **Ativo**: XYZ3
