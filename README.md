@@ -22,7 +22,7 @@ O projeto é composto pelos seguintes arquivos:
 ```
     index.html   // Estrutura da página
     script.js    // Lógica e interatividade
-    styles.css   // Estilização da página
+    styles.css   // Estilização da página index
 ```
 
 ## Como Utilizar
