@@ -1,6 +1,6 @@
 # Preço Teto
 
-![alt text]({EBF2B464-52AC-43E9-9082-E5AFF54ECA26}.png)
+![alt text](./Preço_Teto/asset/inicial-page.png)
 
 
 ## Descrição do Projeto
